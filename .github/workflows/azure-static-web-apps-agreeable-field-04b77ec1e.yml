@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: true
       - name: Setup Python
-        uses: actions/setup-python@v2.2.1
+        uses: actions/setup-python@v2
         with:
           # Version range or exact version of a Python version to use, using SemVer's version range syntax.
           python-version: "3.8.x"
